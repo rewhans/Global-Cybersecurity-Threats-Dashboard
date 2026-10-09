@@ -2,7 +2,7 @@
 
 Python and Tableau analysis of a decade of simulated global cyberattack data: what drives financial loss, which industries and attack types carry the most risk, and how incidents group into risk profiles. Delivered as an executive Tableau storyboard for a healthcare C-suite audience.
 
-**Live dashboard:** [Tableau Public storyboard](https://public.tableau.com/app/profile/ryan.wick4013/viz/Global_Cybersecurity_Threats_2015-2024_Final/GlobalCybersecurityThreats20152024) · **PDF export:** [Global Cybersecurity Threats (2015–2024).pdf](<Cybersecurity_Threats_2015-2024/05_Sent to Client/Global Cybersecurity Threats (2015–2024).pdf>)
+**Live dashboard:** [Tableau Public storyboard](https://public.tableau.com/app/profile/ryan.wick4013/viz/Global_Cybersecurity_Threats_2015-2024_Final/GlobalCybersecurityThreats20152024) · **PDF export:** [Global Cybersecurity Threats (2015–2024).pdf](<05_Sent to Client/Global Cybersecurity Threats (2015–2024).pdf>)
 
 **Skills demonstrated:** data cleaning, exploratory analysis, geospatial mapping, linear regression, K-means clustering, time-series stationarity testing, dashboard design, executive communication.
 
@@ -57,11 +57,11 @@ No missing values or duplicate rows were found.
 
 ## Screenshots
 
-![Global financial loss by country](<Cybersecurity_Threats_2015-2024/04_Analysis/04.03_Visualizations/Global Financial Loss from Cybersecurity Incidents (2015-2024).png>)
+![Global financial loss by country](<04_Analysis/04.03_Visualizations/Global Financial Loss from Cybersecurity Incidents (2015-2024).png>)
 
-![Clusters by resolution time and financial loss](<Cybersecurity_Threats_2015-2024/04_Analysis/04.03_Visualizations/Clusters by Resolution Time and Financial Loss.png>)
+![Clusters by resolution time and financial loss](<04_Analysis/04.03_Visualizations/Clusters by Resolution Time and Financial Loss.png>)
 
-![Financial loss by target industry](<Cybersecurity_Threats_2015-2024/04_Analysis/04.03_Visualizations/Financial Loss by Target Industry.png>)
+![Financial loss by target industry](<04_Analysis/04.03_Visualizations/Financial Loss by Target Industry.png>)
 
 ## Recommendations (from the dashboard)
 
@@ -84,15 +84,14 @@ Python (pandas, matplotlib, seaborn, scikit-learn) · Jupyter Notebook · Tablea
 ```
 .
 ├── README.md
-└── Cybersecurity_Threats_2015-2024/
-    ├── 01_Project Management/   (project brief, project documentation)
-    ├── 02_Data/
-    │   ├── 02.01_Data Raw/      (original CSV, GeoJSON)
-    │   └── 02.02_Data Cleaned/  (first-pass cleaned CSV)
-    ├── 03_Scripts/              (notebooks 6.1 to 6.6, choropleth HTML files)
-    ├── 04_Analysis/
-    │   └── 04.03_Visualizations/ (exported charts)
-    └── 05_Sent to Client/       (PDF export of the Tableau storyboard)
+├── 01_Project Management/    (project brief, project documentation)
+├── 02_Data/
+│   ├── 02.01_Data Raw/       (original CSV, GeoJSON)
+│   └── 02.02_Data Cleaned/   (first-pass cleaned CSV)
+├── 03_Scripts/               (notebooks 6.1 to 6.6, choropleth HTML files)
+├── 04_Analysis/
+│   └── 04.03_Visualizations/ (exported charts)
+└── 05_Sent to Client/        (PDF export of the Tableau storyboard)
 ```
 
 ## Author
